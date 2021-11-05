@@ -1,0 +1,102 @@
+html, body {
+    font-family: 'Ubuntu', sans-serif;
+    
+    background-color: rgb(0, 0, 0);
+    max-width: 100%;
+    height: auto;
+    margin: 0;
+   }
+
+   b {
+    font-size: 18px;
+  }
+
+*{
+    box-sizing: border-box;
+}
+
+
+.row {  
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .side {
+    flex: 25%;
+    background-color: rgb(63, 82, 170);
+    padding: 20px;
+    
+    
+  }
+  .main {
+    flex: 70%;
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+    
+  }
+  .profil-image {
+    background-image: url("mo.jpeg");
+    height: 450px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding-top: 0.5em;
+  }
+  .name{
+    text-align: left;
+    margin-left: 0.4em;
+    margin-top:  0.1em; 
+    color: #0a3046;
+  }
+  .card {
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.15);
+    padding-bottom: 2em;
+   }
+
+   .info-panel, .exp-panel, .edu-panel {
+    font-size: 16px;
+    color: #443320;
+    padding: 0.5em 1.5em;    
+  }
+  .skills-bar, .language-bar {
+    width: 100%;
+    background-color: #aaaac5;
+    border-radius: 1em;
+  }
+  .skills, .language {
+    font-size: 12px;
+    text-align: center;  
+    color: white;
+  }
+  .html {width: 90%; background-color: #b9a04c; border-radius: 1em;}
+.css {width: 80%; background-color: #b9a04c; border-radius: 1em;}
+.js {width: 65%; background-color: #b9a04c; border-radius: 1em;}
+.java {width: 60%; background-color: #b9a04c; border-radius: 1em;}
+.arabic {width: 100%; background-color: #b9a04c; border-radius: 1em;}
+.english {width: 75%; background-color: #b9a04c; border-radius: 1em;}
+.french {width: 60%; background-color: #b9a04c; border-radius: 1em;}
+.german {width: 40%; background-color: #b9a04c; border-radius: 1em;}
+
+mark {
+    padding: 5px;
+    background-color: #b9a04c;
+    color:white;
+    border-radius: 0.2em;
+ }
+footer {
+      text-align: center;
+      text-decoration: none;
+      background-color: #a8b38c;
+      color: #000000;
+      padding: 1em;
+ }
+.social-links {
+      color: #ffffff;  
+ }
+.social-links :hover {
+      color: #c1dbdb;   
+ }
+
+
+  
